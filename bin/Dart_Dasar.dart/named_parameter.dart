@@ -17,12 +17,12 @@ void main(List<String> args) {
   //sayHello();
   sayHello(
       firstName:
-          'Grace'); //minimal harus masukin satu firstname apabila required
-  sayHello(firstName: 'Grace');
+          'Rizqi'); //minimal harus masukin satu firstname apabila required
+  sayHello(firstName: 'Rizqi');
   //sayHello(lastName: 'maulana');
   sayHello(lastName: 'maulana', firstName: 'Rizqi'); //firstname required
   sayHello(
       lastName: 'maulana',
       firstName: 'ahmad'); //bisa lastname duluan dipanggil atau bisa diacak
-  //sayHello('Grace', 'maulana'); //Error. di named_parameter harus manggil function nya dengan menyebutkan parameternya
+  //sayHello('Rizqi', 'maulana'); //Error. di named_parameter harus manggil function nya dengan menyebutkan parameternya
 }
