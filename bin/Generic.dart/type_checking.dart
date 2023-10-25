@@ -9,7 +9,7 @@ void check(dynamic data) {
 }
 
 void main() {
-  check(Mydata("Eko"));
+  check(Mydata("Rizqi"));
   check(Mydata(100));
   check(Mydata(true));
 }
